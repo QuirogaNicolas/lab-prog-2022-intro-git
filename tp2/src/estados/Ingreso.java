@@ -12,13 +12,14 @@ public class Ingreso implements IEstado{
     }
 
     public void hacer(){
+        System.out.println(this.libro.getNombre()+" ingresado.");
         if(libro.getAccion() == 1){
-            System.out.println("Libro viejo enviado a revisar...");
+            System.out.println(this.libro.getNombre()+" Libro viejo enviado a revisar...");
             //en caso de que la accion sea 1 reparar seteamos el nuevo estado
             this.libro.setEstado(new Revision(this.libro));
         }else{
             //diponible
-            System.out.println("Libro nuevo diponible al publico...");
+            System.out.println(this.libro.getNombre()+" Libro nuevo diponible al publico...");
             this.libro.setEstado(new Disponible(this.libro));
         }
     }

@@ -10,11 +10,11 @@ public class Alquilado implements IEstado{
     public void hacer(){
         if(this.libro.getAccion() == 1){
             //perdido
-            System.out.println("El libro fue perdido.");
+            System.out.println(this.libro.getNombre()+" fue perdido.");
             this.libro.setEstado(new Perdido(this.libro));
         }else{
             //revision
-            System.out.println("El libro fue devuelto y pasa a revision...");
+            System.out.println(this.libro.getNombre()+" fue devuelto y pasa a revision...");
             this.libro.setEstado(new Revision(this.libro));
         }
     }

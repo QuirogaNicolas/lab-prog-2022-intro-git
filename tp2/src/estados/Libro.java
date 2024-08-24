@@ -15,6 +15,7 @@ public class Libro implements IEstado{
     }
 
     public void hacer(){
+
         this.estado.hacer();
     }
 
@@ -28,5 +29,9 @@ public class Libro implements IEstado{
 
     public void setAccion(int accion){
         this.accion = accion;
+    }
+
+    public String getNombre(){
+        return nombre;
     }
 }

@@ -10,11 +10,11 @@ public class Disponible implements IEstado {
 
         if(this.libro.getAccion() == 1){
             //vendido
-            System.out.println("El libro fue vendido.");
+            System.out.println(this.libro.getNombre()+" fue vendido.");
             this.libro.setEstado(new Vendido(this.libro));
         }else{
             //alquilado
-            System.out.println("El libro fue alquilado...");
+            System.out.println(this.libro.getNombre()+" fue alquilado...");
             this.libro.setEstado(new Alquilado(this.libro));
         }
     }

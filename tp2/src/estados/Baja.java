@@ -7,6 +7,5 @@ public class Baja implements IEstado {
         this.libro = libro;
     }
     public void hacer(){
-
     }
 }

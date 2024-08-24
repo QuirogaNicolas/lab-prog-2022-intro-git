@@ -13,11 +13,11 @@ public class Reparacion implements IEstado {
         
         if(this.libro.getAccion() == 1){
             //mal estado
-            System.out.println("Libro irreparable...");
+            System.out.println(this.libro.getNombre()+" Libro irreparable...");
             this.libro.setEstado(new Baja(this.libro));
         }else{
             //buen estado
-            System.out.println("Libro reparado ... pasa a estar disponible...");
+            System.out.println(this.libro.getNombre()+" Libro reparado ... pasa a estar disponible...");
             this.libro.setEstado(new Disponible(libro));
         }
     }
