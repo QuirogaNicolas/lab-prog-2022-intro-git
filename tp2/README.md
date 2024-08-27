@@ -1,10 +1,11 @@
-# Patron State / Libreria
+# TP 02.
+## Patron State / Libreria
 
 State es un patrón de diseño de comportamiento que permite a un objeto alterar su comportamiento cuando su estado interno cambia. Parece como si el objeto cambiara su clase.
 
 La idea principal es que, en cualquier momento dado, un programa puede encontrarse en un número finito de estados. Dentro de cada estado único, el programa se comporta de forma diferente y puede cambiar de un estado a otro instantáneamente. Sin embargo, dependiendo de un estado actual, el programa puede cambiar o no a otros estados. Estas normas de cambio llamadas transiciones también son finitas y predeterminadas.
 
-## Problema 
+### Problema 
 
 Necesitamos identificar y controlar los estados de los libros que estan dentro de nuestra biblioteca. Un libro puede estar en los siguientes estado:
 - ingresado: es el estado inicial
@@ -19,10 +20,28 @@ el siguiente diagrama indica como se pasa de un estado a otro:
 
 ![diagrama de estados](DominioLaboratorio%201.jpg)
 
-## Solucion
+### Solucion
 en el codigo podra encontrar la implementacion del patron state sobre este caso. La clase App es la que ejecuta los cambios de estado sobre un objeto `Libro` y de forma aleatoria cambia la accion la cual define a que estado pasa en la siguiente iteracion.
 
-## Getting Started
+
+## ExecutorService
+Es una interfaz en java que propociona un marco para la gestion de tareas asincronas. ofrece una manera mas robusta y flexible de manejar la concurrencia que simplemente usando hilos.
+
+- gestino de hilos: a diferencia de crear y gestionar hilos manualemnte, permite delegar la responsabilidad lo que facilita la reutilizacion de hilos y la optimizacion de rendimiento.
+- terminacion controlada: permite cerrar el servicio de manera controlada.
+- programacion de tareas: puede programar tareas para que se ejecuten despues de un retardo o periodicamente con `SheduledExecutorService`.
+- recuperacion de resultados: puedes usar `submit()` en lugar de `execute()` para obtener el `Feature`, que representa el resultado pendiente de una tarea.
+
+## Runnable 
+
+(lo venimos usando en concurrente 🤕).
+Es una interfaz funcional de java que debe implementarse para definir una tarea que puede ser ejecutada por un hilo o un servicio en ejecucion.
+
+## Solucion
+este mecanismo soluciona la gestion de hilos, y la programacion de tareas.
+
+
+## Getting Started vscode
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
