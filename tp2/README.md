@@ -5,9 +5,6 @@ State es un patrón de diseño de comportamiento que permite a un objeto alterar
 
 La idea principal es que, en cualquier momento dado, un programa puede encontrarse en un número finito de estados. Dentro de cada estado único, el programa se comporta de forma diferente y puede cambiar de un estado a otro instantáneamente. Sin embargo, dependiendo de un estado actual, el programa puede cambiar o no a otros estados. Estas normas de cambio llamadas transiciones también son finitas y predeterminadas.
 
-![estructura del patron](state_estructura.png)
-
-
 ### Problema - Dominio
 
 Necesitamos identificar y controlar los estados de los libros que estan dentro de nuestra biblioteca. Un libro puede estar en los siguientes estado:
@@ -97,6 +94,9 @@ public class Libro implements IEstado{
 ```
 
 la interfaz define que metodos son los que se ejecutan diferente dependiendo del estado. es necesario que estos metodos sean delegados del libro a cada uno de los estados.
+
+
+![estructura del patron](state_estructura.png)
 
 ## Desventajas
 Puede resultar excesivo si se cuenta con pocos estados.
