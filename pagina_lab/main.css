@@ -1,0 +1,73 @@
+:root{
+    --primario: #0040FF;
+    --error: #ff6c37;
+    --alertas: #ffb703;
+    --satisfactorio: #a7c957;
+    --negro: #2a2826;
+    --gris: rgb(212, 212, 212);
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h2{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+footer{
+    width: 100%;
+    background-color: var(--negro);
+    color: var(--gris);
+    padding: 1%;
+    margin: 0;
+}
+
+.atribuciones p{
+    font-size: small;
+}
+
+.oferta_academica{
+    margin: 1;
+}
+
+.oferta_academica .row{
+    margin-top: 1%;
+}
+
+.oferta_academica h3{
+    font-size: 24px;
+}
+
+.oferta_academica .card{
+    border: none !important;
+    max-width: 300px;
+    
+}
+
+.novedad:hover{
+    -webkit-box-shadow: 0px 0px 31px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 31px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 31px -5px rgba(0,0,0,0.75);
+}
+
+/*sobre escribirmos los estilos de boostrap*/
+
+.btn-primary{
+    background-color: var(--primario) !important;
+}
+
+.btn-secondary{
+    background-color: var(--negro);
+}
+
+.text-bg-success{
+    background-color: var(--satisfactorio) !important;
+    color: var(--negro) !important;
+}
