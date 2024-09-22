@@ -29,6 +29,10 @@ footer{
     margin: 0;
 }
 
+nav {
+    background-color: #88a4f9 !important;
+}
+
 .atribuciones p{
     font-size: small;
 }
@@ -57,6 +61,35 @@ footer{
     box-shadow: 0px 0px 31px -5px rgba(0,0,0,0.75);
 }
 
+
+.carrucel {
+    background: #90c0f7;
+    min-height: 20vh;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+
+.carrucel h1,.carrucel h2{
+    font-weight: bold;
+    background: linear-gradient(to right, #0040FF 0%, #5F44D8 51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /*sobre escribirmos los estilos de boostrap*/
 
 .btn-primary{
@@ -70,4 +103,8 @@ footer{
 .text-bg-success{
     background-color: var(--satisfactorio) !important;
     color: var(--negro) !important;
+}
+
+.list-group{
+    max-width: 300px;
 }

@@ -1,69 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Extencion</title>
-    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extencion</title>
+  <script type="module" src="https://md-block.verou.me/md-block.js"></script>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img src="imagenes/logo.svg" width="30px" alt="">
-                Facultad de Informatica 
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="horarios.html">Horarios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="estudiantes.html" >
-                  Estudiantes
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="institucional.html">Institucional</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="extencion.html">Extencion</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="investigacion.html">Investigación</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="postgrado.html">Postgrado</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="bienestar.html">Bienestar</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-      <section>
 
-      </section>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="imagenes/logo.svg" width="30px" alt="">
+        Facultad de Informatica
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="horarios.html">Horarios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="estudiantes.html">
+              Estudiantes
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="institucional.html">Institucional</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="extencion.html">Extencion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="investigacion.html">Investigación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="postgrado.html">Postgrado</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bienestar.html">Bienestar</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <section class="d-block min-vh-100 ms-5 me-5">
+    <ul class="list-group">
+      <li class="list-group-item">
+        <a href="#nuevos_proyectos">Nuevos Proyectos</a>
+      </li>
+      <li class="list-group-item">
+        <a href="#proyectos_vigentes">Proyectos Vigentes</a>
+      </li>
+      <li class="list-group-item">
+        <a href="#proyectos_finalizados">Proyectos Finalizados</a>
+      </li>
+      <li class="list-group-item">
+        <a href="#tutorias_pares">Convenios</a>
+      </li>
+      <li class="list-group-item">
+        <a href="#tutorias_pares">Pasantias</a>
+      </li>
+      <li class="list-group-item">
+        <a href="#tutorias_pares">Becas PPU</a>
+      </li>
+      <li class="list-group-item">
+        <a href="#tutorias_pares">Bolsa de Trabajo</a>
+      </li>
+    </ul>
+    <div class="" id="nuevos_proyectos">
+      <h1 class="text-center">Nuevos Proyectos</h1>
+      <p class="text-center"><i>todavia no tenemos contenido :(</i></p>
+    </div>
+    <div class="" id="proyectos_vigentes">
+      <h1 class="text-center">Proyectos Vigentes</h1>
+      <div class="row row-sm-cols-3 gap-1 justify-content-around" id="proyectos_vigentes_post">
+
+      </div>
+      <div class="row justify-content-center m-5">
+        <button class="btn btn-primary" type="button">Ver mas</button>
+      </div>
+    </div>
+    <div class="" id="proyectos_finalizados">
+      <h1 class="text-center">
+        Proyectos de Extensión Finalizados
+      </h1>
+      <div class="row row-cols-3 gap-1 justify-content-around" id="proyectos_finalizados_post">
+
+      </div>
+      <div class="row justify-content-center m-5">
+        <button class="btn btn-primary" type="button">Ver mas</button>
+      </div>
+    </div>
+
+    <div class="" id="convenios">
+      <h1 class="text-center">Convenios</h1>
+      <div class="">
+
+      </div>
+    </div>
+    <div id="pasantias">
+      <h1 class="text-center">Pasantías</h1>
+      <md-block>
+        El sistema de Pasantías está regido por la ley Nº 26.427 y está institucionalizado en la Universidad Nacional del Comahue mediante sus propias normas internas.
+
+        Los Convenios de Pasantías están aprobados por Ordenanza 191/2009 del Consejo Superior de la Universidad Nacional del Comahue. La misma estipula la firma de un Convenio de Pasantías y un Acuerdo Particular.
+        Objetivo
+        Una pasantía es práctica preprofesional que ofrece al estudiante, la oportunidad de realizar actividades que complementan y amplían su formación teórica. Los conecta con el sector productivo y de servicios otorgándole la posibilidad de conocer y participar de realidades institucionales y organizacionales diferentes. El trabajo en equipo, la interdisciplina y la relación con los superiores, entre otras cosas, forman parte de esta experiencia, que no sólo es un antecedente en el currículum sino que también abre la posibilidad de generar un vínculo laboral en el futuro.
+        Características Generales de las Pasantías según la Ley Nº 26.427
+
+        - Duración: mínimo (2) dos meses y máximo 1 (un) año, con posibilidad de renovación por (6) seis meses más
+        - Cumplir como máximo de 20 horas semanales.
+        - La pasantía se realiza bajo la coordinación y supervisión de un Docente Guía designado por la Facultad de Informática y un tutor designado por la Empresa / Institución.
+        - Los/as estudiantes reciben una asignación mensual en concepto de retribución y gastos de estudios, que será una proporción del salario fijado por el mejor Convenio Colectivo de Trabajo aplicable a la Empresa o Institución, según la carga horaria de la pasantía y que no podrá ser inferior a lo establecido por la Facultad, según Resolución CD FAI N° 038/19.
+        - La empresa debe otorgar al pasante una cobertura de salud cuyas prestaciones serán las previstas en la Ley 23.660 —Ley de Obras Sociales — y acreditarlo ante la Facultad.
+        - También deben incorporar obligatoriamente a los pasantes al ámbito de aplicación de la Ley 24.557 —Ley de Riesgos del Trabajo— y sus normas reglamentarias, y acreditarlos ante la Facultad.
+      </md-block>
+      <h5>REGLAMENTACIÓN REGULATORIA:</h5>
+      <h4 class="text-center">Pasantías Recientes</h4>
+      <div class="row row-cols-3" id="pasantias_recientes_post">
+
+      </div>
+    </div>
+    <div id="becas_ppu">
+      <h1 class="text-center">Becas PPU</h1>
+      <md-block>
+        Las Becas de Capacitación Pre- Profesional Universitaria se encuentran reglamentadas por la Ordenanza del Consejo Superior Nº 0125/10.
+        Se entiende como Capacitación Pre-Profesional Universitaria a la participación de estudiantes en programas especiales de las Secretarías y otras dependencias del Rectorado y de las Unidades Académicas de la Universidad Nacional del Comahue, mediante la realización de actividades formativas, no obligatorias, complementarias con la formación académica.
+        Los objetivos generales de la Capacitación Pre-Profesional Universitaria son:
+        - Brindar experiencia práctica complementaria en la formación académica recibida.
+        - Favorecer el conocimiento de los/as estudiantes sobre los mecanismos de funcionamiento y procedimientos internos de la Universidad.
+        - Enriquecer el futuro accionar profesional mediante capacitación metodológica y técnica.
+        - Formar al estudiante en aspectos que le serán de utilidad en su posterior desempeño laboral.
+        - Ofrecer la posibilidad de actualización tecnológica.
+        
+        **Aspectos generales de las Becas PPU**
+        
+        Para participar de la Capacitación Pre-Profesional Universitaria, los/as estudiantes deberán ser mayores de 18 años y mantener, durante su duración, el carácter de alumno/a activo/a de la Universidad Nacional del Comahue.
+        Los/as estudiantes que participen de una actividad de Capacitación Pre-Profesional Universitaria recibirán una suma de dinero en carácter no remunerativo en calidad de beca estímulo, proporcional a la dedicación horaria a la actividad.
+        Para la realización de una actividad de Capacitación Pre-Profesional Universitaria el/la estudiante participante y la dependencia organizadora deberán firmar un Acuerdo de Capacitación PreProfesional Universitaria.
+        Cada BECA-PPU tendrá una duración mínima de UN (1) mes y máxima de DOCE (12) meses, con posibilidad de renovación por SEIS (6) meses adicionales. La actividad semanal no podrá ser mayor de veinte horas y estará distribuida de tal manera que no afecte el normal desempeño académico de el/la estudiante.
+        
+        **Reglamentación regulatoria: Ordenanza del Consejo Superior Nº 125/10**
+
+      </md-block>
+      <h4 class="text-center">Becas PPU Recientes</h4>
+      <div id="becas_ppu_post">
+
+      </div>
+    </div>
+    <div id="bolsa_trabajo">
+      <h1 class="text-center">Bolsa de Trabajo</h1>
+      <div class="row row-cols-3" id="bolsa_trabajo_post">
+
+      </div>
+    </div>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    cargarProyectosVigentes();
+    cargarProyectosFinalizados();
+
+    function cargarProyectosVigentes() {
+      var proyectos_vigentes_json = [
+        {
+          titulo: 'Programación Lógica en la Escuela Primaria',
+          cuerpo: 'Dirección: Laura Cecchi - lcecchi@fi.uncoma.edu.ar Co-Dirección: Jorge Rodríguez – j.rodrig@fi.uncoma.edu.ar 2023-2024 El objetivo general del'
+        },
+        {
+          titulo: 'FAICOMM: Charlando sobre Informática',
+          cuerpo: 'Dirección: Christian Gimenez – christian.gimenez@fi.uncoma.edu.ar Co-Dirección: Pablo Kogan – pablo.kogan@fi.uncoma.edu.ar 2023-2024 El objetivo general del'
+        },
+        {
+          titulo: 'El Museo vuelve a las Escuelas',
+          cuerpo: 'Dirección: Carina Fracchia – carina.fracchia@fi.uncoma.edu.ar Co-Dirección: Amadeo Laurin 2023-2024 El objetivo general del Proyecto de'
+        }
+      ];
+
+      proyectos_vigentes_json.forEach(proyecto => {
+        $("#proyectos_vigentes_post").append(`
+              <div class="card col-3">
+                <div class="card-body">
+                  <h5>${proyecto.titulo}</h5>
+                  <p style="font-size: 12px;">${proyecto.cuerpo}</p>
+                </div>
+              </div>
+            `)
+      });
+    }
+
+    function cargarProyectosFinalizados() {
+      var proyectos_vigentes_json = [
+        {
+          titulo: 'Programación Lógica en la Escuela Primaria',
+          cuerpo: 'Dirección: Laura Cecchi - lcecchi@fi.uncoma.edu.ar Co-Dirección: Jorge Rodríguez – j.rodrig@fi.uncoma.edu.ar 2023-2024 El objetivo general del'
+        },
+        {
+          titulo: 'FAICOMM: Charlando sobre Informática',
+          cuerpo: 'Dirección: Christian Gimenez – christian.gimenez@fi.uncoma.edu.ar Co-Dirección: Pablo Kogan – pablo.kogan@fi.uncoma.edu.ar 2023-2024 El objetivo general del'
+        },
+        {
+          titulo: 'El Museo vuelve a las Escuelas',
+          cuerpo: 'Dirección: Carina Fracchia – carina.fracchia@fi.uncoma.edu.ar Co-Dirección: Amadeo Laurin 2023-2024 El objetivo general del Proyecto de'
+        }
+      ];
+
+      proyectos_vigentes_json.forEach(proyecto => {
+        $("#proyectos_finalizados_post").append(`
+              <div class="card col-3">
+                <div class="card-body">
+                  <h5>${proyecto.titulo}</h5>
+                  <p style="font-size: 12px;">${proyecto.cuerpo}</p>
+                </div>
+              </div>
+            `)
+      });
+    }
+  </script>
 </body>
+
 </html>
