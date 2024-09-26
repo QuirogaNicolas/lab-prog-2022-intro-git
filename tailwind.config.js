@@ -2,9 +2,9 @@
 module.exports = {
   content: ["./pagina_lab/*.{html,js}"],
   theme: {
-    fontFamily:{
+  /*   fontFamily:{
       "Poppins":[sans-serif]
-    },
+    }, */
     extend: {},
   },
   plugins: [],
