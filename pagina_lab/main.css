@@ -62,7 +62,7 @@ nav {
 }
 
 
-.carrucel {
+.carrusel {
     background: #90c0f7;
     min-height: 20vh;
 }
@@ -83,7 +83,7 @@ nav {
     100%{background-position:51% 0%}
 }
 
-.carrucel h1,.carrucel h2{
+.carrusel h1,.carrusel h2{
     font-weight: bold;
     background: linear-gradient(to right, #0040FF 0%, #5F44D8 51%);
     -webkit-background-clip: text;
@@ -108,3 +108,4 @@ nav {
 .list-group{
     max-width: 300px;
 }
+
